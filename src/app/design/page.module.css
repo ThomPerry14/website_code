@@ -1,0 +1,153 @@
+.Main {
+    width: 100%;
+}
+
+.Main h2 {
+    text-align: center;
+}
+
+.Main p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Arrow {
+    background-color: rgba(164, 164, 164, 0.655);
+    width: fit-content;
+    height:fit-content;
+    padding:12px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.Images {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Images img {
+    margin:auto;
+    width:100%;
+    height: auto;
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+
+.Section2 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Section2 a{
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.Section2 a:hover {
+    color: rgb(79, 79, 79);
+}
+
+.Section2 a:active{
+    color:#a20d33;
+}
+
+.Section {
+    width: 90%;
+    margin-top: 40px;
+    margin:auto;
+}
+
+.Section p, .Section h3 {
+    text-align: center  ;
+    font-size: 1.2em;
+}
+
+.Section ul {
+    width: 90%;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.Section h3 {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+@media (min-width: 768px) {
+
+.Main {
+    width: 100%;
+}
+
+.Main h2 {
+    text-align: center;
+}
+
+.Main p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Images {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Images img {
+    margin:auto;
+    width:33.33%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+.Section2 {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Section2 a{
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.Section2 a:hover {
+    color: rgb(79, 79, 79);
+}
+
+.Section2 a:active{
+    color:#a20d33;
+}
+
+.Section {
+    width: 50%;
+    margin-top: 40px;
+    margin:auto;
+}
+
+.Section p, .Section h3 {
+    text-align: center  ;
+    font-size: 1.2em;
+}
+
+.Section ul {
+    width: 100%;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.Section h3 {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+}

@@ -1,0 +1,154 @@
+.Container {
+    width: 90;
+    margin:auto;
+}
+
+.Course {
+    
+    text-align: left;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-bottom: 1px solid grey;
+    
+    width: 60%;
+    padding: 0;
+    
+}
+
+.Course a {
+    color:black;
+}
+
+.Title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.4em;
+    background-color: #a20d33;
+    color:white;
+}
+.Title img {
+    width:80%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Title h2 {
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+.Tags {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Tags h4{
+    font-size: 0.8em;
+    color:white;
+    border-radius: 16px;
+    padding: 12px;
+    margin:5px;
+    background-color: #761930;
+}
+
+.Description {
+    width: 80%;
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid rgba(128, 128, 128, 0.936);
+    color: black;
+}
+
+@media (min-width: 768px) {
+
+.Container {
+    width: 80%;
+    margin:auto;
+}
+
+.Course {
+    
+    text-align: left;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-bottom: 1px solid grey;
+    
+    width: 60%;
+    padding: 0;
+    
+}
+
+.Course a {
+    color:black;
+}
+
+.Title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.4em;
+    background-color: #a20d33;
+    color:white;
+    border-radius: 20px;
+}
+.Title img {
+    width:80%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Title h2 {
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+.Tags {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Tags h4{
+    font-size: 0.8em;
+    color:white;
+    border-radius: 16px;
+    padding: 12px;
+    margin:5px;
+    background-color: #761930;
+}
+
+.Description {
+    width: 60%;
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid rgba(128, 128, 128, 0.936);
+    color: black;
+}
+
+}

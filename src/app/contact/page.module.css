@@ -1,0 +1,77 @@
+.Parent {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.Main {
+    width: 100%;
+    margin:auto;
+}
+
+.Main h2 {
+    text-align: left;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.Main p {
+    line-height: 1.8;
+    text-align: left;
+    font-size: 1.2em;
+    width: 100%;
+    margin:auto;
+}
+
+.Parent img {
+    width:100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+
+.Container {
+    width:100%;
+}
+
+@media (min-width: 768px) {
+
+.Parent {
+    display:flex;
+    flex-direction: row;
+}
+
+.Main {
+    width: 100%;
+    margin:auto;
+}
+
+.Main h2 {
+    text-align: left;
+    width: 70%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.Main p {
+    line-height: 1.8;
+    text-align: left;
+    font-size: 1.2em;
+    width: 70%;
+    margin:auto;
+}
+
+.Parent img {
+    margin:auto;
+    width:60%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+}
+
+.Container {
+    width:80%;
+    padding:50px;
+}

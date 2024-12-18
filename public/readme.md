@@ -1,0 +1,1 @@
+Folder likely to contain images and other static files.

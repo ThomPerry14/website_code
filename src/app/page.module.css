@@ -1,0 +1,441 @@
+.About{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.About h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 20px ;
+
+}
+
+.About p {
+  width: 90%;
+  margin: auto;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.Parent {
+  display: flex;
+  margin-top:0px;
+  width:100%;
+  flex-wrap:wrap;
+  flex-direction: column;
+  background-color: #932e47;
+}
+
+.Parent img {
+  width:100%;
+  height: auto;
+  margin-top: 0px;
+  border-bottom:2px solid black ;
+}
+
+.Parent a:hover {
+  color: rgb(79, 79, 79);
+}
+
+.Parent a:active{
+  color:#a20d33;
+}
+
+.Facilities {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Facilities h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Facilities p {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Facilities h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Facilities a {
+  color:black;
+  font-size: 1.1em;
+}
+
+.Business {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Business h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Business p {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Business h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Business a {
+  color:black;
+  font-size: 1.1em;
+}
+
+.Computing {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Computing h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Computing p {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Computing h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Computing a {
+  color:black;
+  font-size: 1.1em;
+}
+
+.Design {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+.Design h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Design p {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Design h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Design a {
+  color:black;
+  font-size: 1.1em;
+}
+
+.Contact {
+  margin-top:0px;
+  margin:auto;
+  color:white;
+  width:100%;
+  padding:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: #932e47;
+  text-align: center;
+}
+
+.Contact a {
+  color:white;
+  text-decoration: underline;
+}
+
+.Contact a:hover{
+  color:rgb(159, 159, 159);
+}
+
+.Contact a:active{
+  color:rgb(172, 132, 132);
+}
+
+@media (min-width: 768px) {
+
+.About{
+  width: 90%;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.About h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 20px ;
+
+}
+
+.About p {
+  width: 90%;
+  margin: auto;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.AboutParent {
+  display:flex;
+  flex-direction: row;
+}
+
+.Parent {
+  display: flex;
+  margin-top:0px;
+  width:100%;
+  flex-wrap:wrap;
+  flex-direction: row;
+  background-color: #932e47;
+}
+
+.Parent img {
+  width:100%;
+  height: auto;
+  margin-top: 0px;
+  border-bottom:2px solid black ;
+}
+
+
+.Facilities {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 34%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Facilities h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Facilities p {
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Facilities h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Facilities a {
+  color:black;
+  font-size: 1.1em;
+}
+
+
+.Business {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 34%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Business h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Business p {
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Business h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Business a {
+  color:black;
+  font-size: 1.1em;
+}
+
+.Computing {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 34%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Computing h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Computing p {
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Computing h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Computing a {
+  color:black;
+  font-size: 1.1em;
+}
+
+.Design {
+  background-color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 34%;
+  margin-top: 40px; 
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Design h3{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Design p {
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Design h2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  font-size: 1.1em;
+  background-color: #a20d33;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Design a {
+  color:black;
+  font-size: 1.1em;
+}
+
+}

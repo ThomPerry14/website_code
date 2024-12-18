@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+
+header {
+  text-align: center;
+  width:100%;
+  max-height: 400px;
+  background-image: url("/images/bg-image.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding: 0;
+
+}
+
+header img{
+  height:auto;
+  max-width: 80px;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid grey;
+  font-style: italic;
+}
+
+

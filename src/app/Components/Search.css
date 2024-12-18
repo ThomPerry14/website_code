@@ -1,0 +1,46 @@
+.container {
+    width:100%;
+    text-align: center;
+    padding: 20;
+    margin: auto;
+}
+.container input {
+    width:90%;
+    padding:10px;
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 8px;
+}
+
+.container button[type="submit"]{
+    min-width: 100px;
+    width:10%;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 10px;
+    height:auto;
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        width:90%;
+        text-align: center;
+        padding: 20px;
+    }
+    .container input[type="text"]{
+        width:90%;
+        padding:10px;
+        border: 2px solid rgb(65, 65, 65);
+        border-radius: 8px;
+    }
+    .container button[type="submit"]{
+        min-width: 120px;
+        width:20%;
+        font-size: 1.1em;
+        border-radius: 8px;
+        padding: 10px;
+        height:auto;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,198 @@
+
+.Main {
+    width: 100%;
+}
+
+.Main h2 {
+    text-align: center;
+}
+
+.Main p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.Images {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Images img {
+    margin:auto;
+    width:33.33%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+.Section2 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Section2 a{
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.Section2 ol {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    font-size: 1.1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Section2 p {
+    width:80%;
+    margin:auto;
+}
+
+.Section2 a:hover {
+    color: rgb(79, 79, 79);
+}
+
+.Section2 a:active{
+    color:#a20d33;
+}
+
+.Section {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.SectionHead h3 {
+    background-color: #932e47;
+    padding: 10px;
+    color:white;
+    font-size: 1.2em;
+
+}
+
+.Section p {
+    text-align: center  ;
+    font-size: 1.2em;
+    width: 80%;
+    margin:auto;
+}
+
+.Section ul {
+    width: 80%;
+    text-align: left;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.Break {
+    border-top: 1px solid grey;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+
+.Main {
+    width: 100%;
+}
+
+.Main h2 {
+    text-align: center;
+}
+
+.Main p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Images {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Images img {
+    margin:auto;
+    width:33.33%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+.Section2 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Section2 a{
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.Section2 ol {
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    font-size: 1.1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Section2 p {
+    width:80%;
+    margin:auto;
+}
+
+.Section2 a:hover {
+    color: rgb(79, 79, 79);
+}
+
+.Section2 a:active{
+    color:#a20d33;
+}
+
+.Section {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.SectionHead h3 {
+    background-color: #932e47;
+    padding: 10px;
+    color:white;
+    font-size: 1.2em;
+
+}
+
+.Section p {
+    text-align: center  ;
+    font-size: 1.2em;
+    width: 80%;
+    margin:auto;
+}
+
+.Section ul {
+    width: 80%;
+    text-align: left;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.Break {
+    border-top: 1px solid grey;
+    margin-top: 10px;
+}
+
+
+}

@@ -1,0 +1,45 @@
+
+
+.CourseList {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}   
+
+.Course {
+    
+    text-align: left;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-bottom: 1px solid grey;
+    
+    width: 40%;
+    padding: 0;
+    
+}
+
+.Course a {
+    color:black;
+}
+
+.Title {
+    font-size: 2em;
+}
+
+.Tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Tags h4{
+    font-size: 0.9em;
+    color:white;
+    background-color: #a20d33;
+    border-radius: 6px;
+    padding: 7px;
+}
